@@ -1057,3 +1057,97 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.03-16.20.32:853][805]AssetCheck: New page: Asset Save: multiple assets
 [2022.11.03-16.20.32:853][805]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
 [2022.11.03-16.20.32:853][805]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
+[2022.11.03-16.27.01:864][237]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.11.03-20.56.54:780][238]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.03-20.56.55:124][239]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{662191fd-de64-4c7b-af18-7cf2bbeba031}, Name=Speakers (USB Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=110.08
+[2022.11.03-20.56.55:146][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.03-20.56.55:151][240]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x5ac960d0b40 [can pipeline])
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.204.164.104) port 443 (#2))
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: 000005ACBDA30F00: libcurl info message cache 7 (Closing connection 2)
+[2022.11.03-20.56.56:795][245]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.11.03-21.11.53:241][660]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Enemy.fbx)
+[2022.11.03-21.11.53:896][660]LogFbx: Loading FBX Scene from C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Enemy.fbx
+[2022.11.03-21.11.53:982][660]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.03-21.12.00:745][660]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.03-21.12.00:981][660]LogFbx: Display: Triangulating static mesh Cone.023
+[2022.11.03-21.12.01:154][660]LogStaticMesh: Display: Building static mesh Enemy...
+[2022.11.03-21.12.01:315][660]LogStaticMesh: Built static mesh [0.14s] /Game/Models/Enemy.Enemy
+[2022.11.03-21.12.01:720][660]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.03-21.12.01:846][660]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Gem.fbx)
+[2022.11.03-21.12.01:856][660]LogFbx: Loading FBX Scene from C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Gem.fbx
+[2022.11.03-21.12.01:862][660]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.03-21.12.01:862][660]LogFbx: Display: Triangulating static mesh Cylinder
+[2022.11.03-21.12.01:865][660]LogStaticMesh: Display: Building static mesh Gem...
+[2022.11.03-21.12.01:873][660]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Gem.Gem
+[2022.11.03-21.12.01:881][660]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.03-21.12.01:891][660]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Platform0.fbx)
+[2022.11.03-21.12.01:902][660]LogFbx: Loading FBX Scene from C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Platform0.fbx
+[2022.11.03-21.12.01:908][660]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.03-21.12.01:908][660]LogFbx: Display: Triangulating static mesh Cube
+[2022.11.03-21.12.01:910][660]LogStaticMesh: Display: Building static mesh Platform0...
+[2022.11.03-21.12.01:917][660]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Platform0.Platform0
+[2022.11.03-21.12.01:924][660]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.03-21.12.01:934][660]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Platform1.fbx)
+[2022.11.03-21.12.01:945][660]LogFbx: Loading FBX Scene from C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Models\Platform1.fbx
+[2022.11.03-21.12.01:950][660]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.03-21.12.01:951][660]LogFbx: Display: Triangulating static mesh Cube.001
+[2022.11.03-21.12.01:987][660]LogStaticMesh: Display: Building static mesh Platform1...
+[2022.11.03-21.12.01:998][660]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Platform1.Platform1
+[2022.11.03-21.12.02:007][660]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.03-21.12.02:025][660]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SLevelEditor [LevelEditor.cpp(210)].
+[2022.11.03-21.12.11:410][151]LogSlate: Window 'Message Log' being destroyed
+[2022.11.03-21.12.11:417][151]LogSlate: Window 'Message Log' being destroyed
+[2022.11.03-21.12.27:908][554]LogAssetTools: Warning: Failed to import 'C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Materials\EnemyMaterial.uasset'. Unknown extension 'uasset'.
+[2022.11.03-21.12.27:962][554]LogAssetTools: Warning: Failed to import 'C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Materials\GemMaterial.uasset'. Unknown extension 'uasset'.
+[2022.11.03-21.12.27:979][554]LogAssetTools: Warning: Failed to import 'C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Materials\GemMaterial_Blue.uasset'. Unknown extension 'uasset'.
+[2022.11.03-21.12.27:996][554]LogAssetTools: Warning: Failed to import 'C:\Users\da_pr\Downloads\IntroTutorialAssets\IntroTutorialAssets\Materials\GemMaterial_Green.uasset'. Unknown extension 'uasset'.
+[2022.11.03-21.13.03:598][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.11.03-21.13.03:599][  9]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.008
+[2022.11.03-21.13.03:600][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy] ([1] browsable assets)...
+[2022.11.03-21.13.03:670][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Enemy.Enemy]
+[2022.11.03-21.13.03:670][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy]
+[2022.11.03-21.13.03:670][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Enemy_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.11.03-21.13.03:688][  9]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Enemy_Auto1
+[2022.11.03-21.13.03:688][  9]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Enemy_Auto14243DC074E23F08C8B28DFA28916366F.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Enemy_Auto1.uasset'
+[2022.11.03-21.13.03:689][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Gem] ([1] browsable assets)...
+[2022.11.03-21.13.03:701][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Gem.Gem]
+[2022.11.03-21.13.03:701][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gem]
+[2022.11.03-21.13.03:701][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Gem" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Gem_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.11.03-21.13.03:704][  9]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gem_Auto1
+[2022.11.03-21.13.03:704][  9]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Gem_Auto1B9A3A9274DAD4361321DE98C93CF722D.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Gem_Auto1.uasset'
+[2022.11.03-21.13.03:705][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Platform0] ([1] browsable assets)...
+[2022.11.03-21.13.03:716][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Platform0.Platform0]
+[2022.11.03-21.13.03:716][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Platform0]
+[2022.11.03-21.13.03:716][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Platform0" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Platform0_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.11.03-21.13.03:719][  9]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Platform0_Auto1
+[2022.11.03-21.13.03:719][  9]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Platform0_Auto1DD2ECA0341C0993251B7198E8C59E40A.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Platform0_Auto1.uasset'
+[2022.11.03-21.13.03:720][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Platform1] ([1] browsable assets)...
+[2022.11.03-21.13.03:731][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Platform1.Platform1]
+[2022.11.03-21.13.03:731][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Platform1]
+[2022.11.03-21.13.03:731][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Platform1" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Platform1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.11.03-21.13.03:734][  9]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Platform1_Auto1
+[2022.11.03-21.13.03:734][  9]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Platform1_Auto18C1D8704448CB8BC749260AC3C131D32.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Models/Platform1_Auto1.uasset'
+[2022.11.03-21.13.03:752][  9]LogFileHelpers: Auto-saving content packages took 0.136
+[2022.11.03-21.20.17:766][981]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.11.03-21.30.30:455][  1]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.03-21.30.30:461][  1]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.03-21.30.40:205][674]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.03-21.30.57:581][674]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.03-21.30.57:589][674]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.03-21.30.57:594][674]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.03-21.30.57:985][676]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.03-21.31.15:267][566]LogContentBrowser: Attempting asset rename: NewBlueprint -> Player
+[2022.11.03-21.31.15:617][566]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.03-21.31.17:467][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Content/Blueprints/Player.uasset" SILENT=true
+[2022.11.03-21.31.17:579][657]LogSavePackage: Moving output files for package: /Game/Blueprints/Player
+[2022.11.03-21.31.17:579][657]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/PlayerDD9DB8AE41CD380CF495519C2F953F80.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Content/Blueprints/Player.uasset'
+[2022.11.03-21.31.17:589][657]AssetCheck: New page: Asset Save: Player
+[2022.11.03-21.31.17:589][657]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player.Player
