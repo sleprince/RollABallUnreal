@@ -3222,3 +3222,101 @@ Script call stack:
 [2022.11.07-20.43.19:379][312]LogFileHelpers: No new changes to save!
 [2022.11.07-20.43.19:393][312]AssetCheck: New page: Asset Save: MainLevel
 [2022.11.07-20.43.19:393][312]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
+[2022.11.07-21.08.27:882][985]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2022.11.07-21.08.27:882][985]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.07-21.08.28:214][985]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{662191fd-de64-4c7b-af18-7cf2bbeba031}, Name=Speakers (USB Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=23.80
+[2022.11.07-21.08.28:214][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.07-21.08.28:219][986]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-14.01.47:129][991]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [147210144ms] waiting for h/w. InstanceID=1
+[2022.11.09-14.01.47:129][991]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.11.09-14.01.48:804][991]LogViewport: Scene viewport resized to 1520x873, mode Windowed.
+[2022.11.09-14.01.50:864][992]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: libcurl info message cache 0 (Connection 20 seems to be dead!)
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: libcurl info message cache 1 (Closing connection 20)
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: 000005ACED910500: libcurl info message cache 3 (Closing connection 21)
+[2022.11.09-14.01.50:864][992]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.11.09-14.01.51:106][992]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0. Error code 37.
+[2022.11.09-14.01.51:106][992]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.11.09-14.01.51:147][992]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.11.09-14.01.51:855][994]LogViewport: Scene viewport resized to 1520x813, mode Windowed.
+[2022.11.09-14.01.51:983][994]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{662191fd-de64-4c7b-af18-7cf2bbeba031}, Name=Speakers (USB Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=943.11
+[2022.11.09-14.01.51:983][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-14.01.51:988][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-14.01.52:513][996]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0. Error code 37.
+[2022.11.09-14.01.52:513][996]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.11.09-14.01.52:649][996]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.11.09-14.02.05:929][118]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=CVTE TV (NVIDIA High Definition Audio), InstanceID=1
+[2022.11.09-14.02.05:929][118]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-14.02.06:262][118]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{24717fa4-d9e5-4482-a51f-b09ee1ab1205}, Name=NVIDIA Output (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=45.57
+[2022.11.09-14.02.06:262][118]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-14.02.06:266][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-14.20.31:952][497]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB Audio Device), InstanceID=1
+[2022.11.09-14.20.31:952][497]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-14.20.32:286][497]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{662191fd-de64-4c7b-af18-7cf2bbeba031}, Name=Speakers (USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=36.26
+[2022.11.09-14.20.32:286][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-14.20.32:288][498]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-22.10.54:903][534]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=CVTE TV (NVIDIA High Definition Audio), InstanceID=1
+[2022.11.09-22.10.54:903][534]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-22.10.55:249][534]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{43507607-0ef9-4c21-9fbd-1db55ed90964}, Name=NVIDIA Output (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=172.61
+[2022.11.09-22.10.55:249][534]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-22.10.55:252][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-22.10.57:905][543]LogHttp: Warning: 000005ACED917300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.11.09-22.10.57:905][543]LogHttp: Warning: 000005ACED917300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.11.09-22.10.57:905][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x5ac960d0270 [can pipeline])
+[2022.11.09-22.10.57:905][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 1 (Re-using existing connection! (#23) with host datarouter.ol.epicgames.com)
+[2022.11.09-22.10.57:905][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.6.244) port 443 (#23))
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: 000005ACED917300: libcurl info message cache 7 (Closing connection 23)
+[2022.11.09-22.10.57:908][543]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BFE7F3C-4876-6C70-BC84-7CAC37487271%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=cb08d4b5428aecfa29a8bfb261a924db%7Cbcebb6b298e4475e8e34e7878325d282%7C596ae6e3-8ed2-41b1-913e-565b24365fb3&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.11.09-22.10.58:263][544]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM)), InstanceID=1
+[2022.11.09-22.10.58:263][544]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-22.10.58:574][544]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{419520e4-5c27-4c48-97dc-9848fc2878e9}, Name=NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM))), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=72.01
+[2022.11.09-22.10.58:574][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-22.10.58:580][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-22.10.58:906][546]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=CVTE TV (NVIDIA High Definition Audio), InstanceID=1
+[2022.11.09-22.10.58:906][546]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=38276
+[2022.11.09-22.10.59:245][546]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{43507607-0ef9-4c21-9fbd-1db55ed90964}, Name=NVIDIA Output (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=24.74
+[2022.11.09-22.10.59:245][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.09-22.10.59:252][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.09-22.11.57:518][971]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gem.Gem
+[2022.11.09-22.11.57:526][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.09-22.12.46:311][ 80]BlueprintLog: New page: Compile Gem
+[2022.11.09-22.12.46:587][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2022.11.09-22.13.08:399][452]LogSlate: Window 'Gem' being destroyed
+[2022.11.09-22.13.08:440][452]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.11.09-22.13.08:440][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.09-22.13.11:866][528]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2022.11.09-22.13.11:867][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.09-22.13.43:406][226]BlueprintLog: New page: Compile Player
+[2022.11.09-22.13.43:480][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.11.09-22.14.09:713][462]LogDerivedDataCache: C:/Users/da_pr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.376 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.09-22.17.28:099][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Content/Blueprints/Player.uasset" SILENT=true
+[2022.11.09-22.17.28:114][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Player
+[2022.11.09-22.17.28:115][284]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Player405504A04B1B55860C2EA7A48151AAA9.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Content/Blueprints/Player.uasset'
+[2022.11.09-22.17.28:131][284]AssetCheck: New page: Asset Save: Player
+[2022.11.09-22.17.28:131][284]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player.Player
+[2022.11.09-22.18.21:747][868]LogSlate: Window 'Player' being destroyed
+[2022.11.09-22.18.21:769][868]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.11.09-22.18.21:769][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.09-22.18.25:987][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gem.Gem
+[2022.11.09-22.18.25:987][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.09-22.18.36:331][445]Cmd: TRANSACTION UNDO
+[2022.11.09-22.18.36:331][445]LogEditorTransaction: Undo Add New Function
+[2022.11.09-22.20.52:367][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.11.09-22.20.52:382][862]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/MainLevel_Auto7
+[2022.11.09-22.20.52:382][862]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/MainLevel_Auto77CF1994441F7A48149E68C9CCC9DEBA2.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Levels/MainLevel_Auto7.umap'
+[2022.11.09-22.20.52:776][862]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.455
+[2022.11.09-22.20.52:776][862]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.455
+[2022.11.09-22.20.52:776][862]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Gem] ([2] browsable assets)...
+[2022.11.09-22.20.52:810][862]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gem.Gem]
+[2022.11.09-22.20.52:810][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gem]
+[2022.11.09-22.20.52:810][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gem" FILE="C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Blueprints/Gem_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2022.11.09-22.20.52:817][862]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Gem_Auto7
+[2022.11.09-22.20.52:817][862]LogSavePackage: Moving 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Gem_Auto7FFA2C2844E9B575407FAB9B3CF6D5D9F.tmp' to 'C:/Users/da_pr/Documents/Unreal Projects/BlueprintTutorial/Saved/Autosaves/Game/Blueprints/Gem_Auto7.uasset'
+[2022.11.09-22.20.52:818][862]LogFileHelpers: Auto-saving content packages took 0.042
